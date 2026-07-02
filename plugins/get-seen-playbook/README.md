@@ -28,6 +28,10 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.2)
+
+- draft-outreach now references the Email Template Library by its current name (the file was renamed from Email Template Packet on 7/1/26). No behavior change.
+
 ## Notes for this version (0.6.1)
 
 Renamed to the Get Seen Playbook (plugin slug `get-seen-playbook`), and folded in the fixes from the live Windows setup test:
