@@ -1,0 +1,16 @@
+{
+  "name": "get-seen-playbook",
+  "version": "0.6.2",
+  "description": "Run the Get Seen Playbook. Set up a family's recruiting project, keep the pipeline tracker current, and draft coach outreach from proven templates.",
+  "author": {
+    "name": "The Get Seen Playbook"
+  },
+  "homepage": "https://getseenplaybook.com",
+  "keywords": [
+    "recruiting",
+    "volleyball",
+    "college-athletics",
+    "pipeline",
+    "outreach"
+  ]
+}
