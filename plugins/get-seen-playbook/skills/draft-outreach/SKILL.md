@@ -4,7 +4,7 @@ description: >
   Draft a coach outreach email and save it as a Gmail draft. Use when a user says draft an
   email to a coach, write outreach to a school, reach out to a program, or names a school
   they want to contact. Picks the right Email Template (T01 through T13), pulls the wording
-  from the family's Email Template packet, fills the brackets from the athlete's project
+  from the family's Email Template Library, fills the brackets from the athlete's project
   instructions, and creates a draft in the connected email tool.
 ---
 
@@ -16,11 +16,11 @@ family can review and send it themselves. Never send on the family's behalf. Dra
 
 This skill runs the Playbook's outreach framework. It does not invent an email structure. It
 selects the correct template, pulls that template's wording from the family's own Email
-Template packet, and fills the brackets from the athlete's profile.
+Template Library, and fills the brackets from the athlete's profile.
 
 ## Step 1: Confirm the Email Templates are in the workspace
 
-The outreach templates live in the family's Email Template packet in their project folder
+The outreach templates live in the family's Email Template Library in their project folder
 (the "Email Templates" file the setup skill placed there). If it is not in the folder, tell
 the family to add it before drafting. Do not recreate the templates from memory. They are the
 purchased product, and the family's copy is the source of truth for exact wording.
@@ -94,7 +94,7 @@ Two choices set the tone across the email, straight from the master-prompt logic
 
 ## Step 5: Write the email from the template
 
-Use the chosen template's wording from the family's packet as the base. Fill every bracket
+Use the chosen template's wording from the family's Email Template Library as the base. Fill every bracket
 from the project instructions and the details gathered in Step 3. Keep it short, specific,
 and athlete-driven: a coach should know in fifteen seconds who the athlete is, why this
 school, and what to do next. Remove any structural labels the template carries (the blue
