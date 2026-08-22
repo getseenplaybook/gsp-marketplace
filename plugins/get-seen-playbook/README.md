@@ -28,6 +28,10 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.3)
+
+- Model guidance is now evergreen: setup says to use the most capable model available (the highest-level option in the picker) instead of naming a specific model, so it stays correct as the model lineup changes. No behavior change.
+
 ## Notes for this version (0.6.2)
 
 - draft-outreach now references the Email Template Library by its current name (the file was renamed from Email Template Packet on 7/1/26). No behavior change.
@@ -36,7 +40,7 @@ account. The family connects their own email. Nothing is shared back to anyone.
 
 Renamed to the Get Seen Playbook (plugin slug `get-seen-playbook`), and folded in the fixes from the live Windows setup test:
 
-- **Use the most capable model for setup** (Opus or higher): the Brief, Dossier, and pipeline audit are reasoning-heavy.
+- **Use the most capable model for setup** (the highest-level option available): the Brief, Dossier, and pipeline audit are reasoning-heavy.
 - **Do not publish the Targeting Brief alone.** Build it as a draft, reconcile against the Dossier (weighting net measurables like approach touch, not height alone), review with the family, then save the combined profile only once it reads right.
 - **Branch on prior coach contact** after setup: if the family already has outreach, connect Gmail and run a full pipeline audit before building a new list.
 - **Shell first for batch outreach**, and **hook edits after drafting default to paste-in**, not a new draft.
