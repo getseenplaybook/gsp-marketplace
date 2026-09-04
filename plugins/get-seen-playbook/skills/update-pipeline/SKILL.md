@@ -19,12 +19,32 @@ Work on the family's one working tracker (the `[Athlete]_Recruiting_Pipeline` fi
 `Pipeline` folder). Update it in place. Never create "v2" or "final" copies. When the family
 asks for a snapshot, save a dated copy into `Pipeline/Archive`.
 
-**Dates use the family's local time zone, not UTC.** Every time you write a date into the
-tracker (last contact, next action, or "today"), compute "today" in the family's local
-time zone. Some tools, Gmail included, bucket sent messages by UTC, so an email sent late
-in the evening local time can roll into the next calendar day. If a date comes from a
-UTC-based source, convert it to local time before logging, so the tracker dates and any
-"sent today" counts reconcile.
+## Step 0: Set today's date before you write anything
+
+Do this first, before reading the family's input. Every date in this tracker is a local date
+for the family, and the clock you are running on is not their clock. It runs on UTC, which is
+ahead of every US time zone, so from early evening onward the date you see in session context
+is already tomorrow. A coach reply logged at 9pm Tuesday lands on Wednesday, and a follow-up
+set for seven days out quietly comes due in six.
+
+So never take "today" from the date shown in session context, and never take it from a file
+timestamp. Resolve it against the family's time zone, which is recorded in their project
+instructions:
+
+```
+TZ=America/New_York date "+%Y-%m-%d %H:%M %Z"
+```
+
+Substitute the family's time zone for the one above. Run it once at the start of the session
+and use that date for every write that follows: last contact, next action dates, snapshot
+filenames, and any "sent today" count. If the project instructions do not name a time zone,
+ask the family for it once, use it for this session, and tell them to add it to their
+instructions so it holds next time.
+
+Dates that come from outside get converted before they are logged, not after. A send timestamp
+from an email tool may be stored in UTC, so an email sent late in the evening can show under
+the next calendar day. Convert it to the family's local date first, so the tracker and the
+daily counts agree.
 
 ## Step 1: Read the input
 
@@ -90,6 +110,10 @@ pipeline from going quiet. Keep it short and specific.
 Tell the family in one or two lines what changed (school, new status, next action) and what is
 now due next. If they asked for a snapshot, confirm the dated copy was saved to
 `Pipeline/Archive`.
+
+Include the date you logged against, written out (for example "logged 2026-08-30"). It is a
+one-second check for the family and it catches a wrong-day entry on the spot, while it is
+still cheap to fix.
 
 ## Voice
 
