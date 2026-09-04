@@ -35,21 +35,29 @@ plain questions otherwise:
 - Athlete first and last name
 - Graduation year (accept any year; never cap the choices, always include 2030 and beyond, or just have them type it)
 - Sport
-- Primary position, and secondary position if any
+- Recruited position (the position you are pitching to college coaches)
+- Club position (what she plays for her club team)
+- High school position (what she plays for her school)
 - Club team
 - High school
 - Time zone the family lives in
 
-Ask club team and high school as two separate questions, not combined.
+Ask club team and high school as two separate questions, not combined. If the family does not
+know an answer, leave it blank and move on. Do not invent values. Do not narrate which fields
+are done (no "filled out the essentials above" style summaries); just collect what you need
+and keep moving.
+
+Ask the recruited position first. Then offer "same as the recruited position" as the first
+choice for club and for high school, so a family whose athlete plays one position everywhere
+answers in two taps. Record all three even when they match. They are three fields because the
+templates read them separately, and a family that stores only one hits the wall later, at the
+moment a coach is waiting on a reply.
 
 For time zone, offer the four US zones as choices (Eastern, Central, Mountain, Pacific) and
 let them type another. Record it as a standard zone name: `America/New_York`,
 `America/Chicago`, `America/Denver`, `America/Los_Angeles`. That exact form matters, because
 the tracker skill uses it to resolve dates. If they skip the question, use `America/New_York`
-and say plainly that you defaulted to Eastern and they can change it in their instructions. If the family does not
-know an answer, leave it blank and move on. Do not invent values. Do not narrate which fields
-are done (no "filled out the essentials above" style summaries); just collect what you need
-and keep moving.
+and say plainly that you defaulted to Eastern and they can change it in their instructions.
 
 ## Step 3: Build the folder structure
 
@@ -81,9 +89,20 @@ the same starter-instructions block from the Playbook setup guide. Keep it verba
 for the filled-in details.
 
 ```
-You are my college recruiting assistant for [Athlete Name], a [Grad Year] [Position] playing
-[Sport]. You help me research schools, build and maintain my target list, draft coach
-outreach, and keep my pipeline current.
+You are my college recruiting assistant for [Athlete Name], a [Grad Year] [Recruited
+Position] playing [Sport]. You help me research schools, build and maintain my target list,
+draft coach outreach, and keep my pipeline current.
+
+Positions. Three fields, and for most athletes all three say the same thing:
+- Recruited position: [Recruited Position]. The position we are pitching to college coaches.
+  When a template or prompt asks for position without saying which one, this is it, and it is
+  what goes in the subject line.
+- Club position: [Club Position]. What she actually plays for her club team.
+- High school position: [High School Position]. What she actually plays for her school.
+Follow the position that matches the season you are writing about: club stats and club film
+follow the club position, school stats and school results follow the high school position. If
+a template needs one of these and my instructions only carry another, ask me rather than
+assuming they are the same.
 
 Files in this project:
 - Guide: the methodology. Follow its approach and terminology.
