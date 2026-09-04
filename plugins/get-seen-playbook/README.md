@@ -28,6 +28,14 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.4)
+
+- Time zone handling now has a mechanism behind it, not just a rule. Setup asks the family for
+  their time zone and stores it as a standard zone name in their project instructions, and the
+  tracker skill resolves today's date against that zone before it writes anything, instead of
+  trusting its own clock (which runs on UTC and rolls to tomorrow while it is still evening in
+  the US). Tracker updates also report the date they logged against.
+
 ## Notes for this version (0.6.3)
 
 - Model guidance is now evergreen: setup says to use the most capable model available (the highest-level option in the picker) instead of naming a specific model, so it stays correct as the model lineup changes. No behavior change.
@@ -45,7 +53,7 @@ Renamed to the Get Seen Playbook (plugin slug `get-seen-playbook`), and folded i
 - **Branch on prior coach contact** after setup: if the family already has outreach, connect Gmail and run a full pipeline audit before building a new list.
 - **Shell first for batch outreach**, and **hook edits after drafting default to paste-in**, not a new draft.
 - **Family-facing wording says project Instructions**, not CLAUDE.md (Cowork stores instructions in-app, not as a file).
-- Outreach templates now cover **T01 through T13**.
+- Outreach templates now cover **T01 through T14**.
 
 ## Notes for this version (0.6.0)
 
@@ -62,7 +70,10 @@ New rules now written into the starter project Instructions by the setup skill:
 - **Reply in the same thread** on prior-contact emails, with a new subject line.
 - **Address the head coach plus the recruiting coordinator**, verified on the athletics site.
 - **Do not log a send until confirmed** sent (or seen in the Sent folder).
-- **Count dates in local time zone**, not UTC, so late sends log on the right day.
+- **Resolve today's date in the family's time zone** before writing any date, rather than
+  trusting the assistant's own clock, which runs on UTC and rolls over to tomorrow while it is
+  still evening in the US. The family's zone is captured at setup and stored in their project
+  instructions.
 - **Screen schools on both academic and athletic fit**, never one alone.
 - **Keep school lists alphabetical**.
 
@@ -79,7 +90,7 @@ This version makes every numbered prompt runnable by code in a fresh workspace.
   the matching prompt whenever the family names a code (or describes a task that maps to one),
   and to confirm before running when the match is unclear. Before this, the starter file named
   the Guide, Email Templates, and Tracker but not the Prompt Library, so "run P3-03" could come
-  back empty. Now any P, TP, M, or T01 through T13 prompt runs by code.
+  back empty. Now any P, TP, M, or T01 through T14 prompt runs by code.
 - This also makes the new **P3-05 (Research and Vet Schools, research only)** prompt reachable
   by code: it researches and sorts a list or batch into Yes / Maybe / Pass and stops, with no
   outreach drafted, so a family can vet before they commit.
