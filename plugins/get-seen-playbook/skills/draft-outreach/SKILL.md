@@ -3,7 +3,7 @@ name: draft-outreach
 description: >
   Draft a coach outreach email and save it as a Gmail draft. Use when a user says draft an
   email to a coach, write outreach to a school, reach out to a program, or names a school
-  they want to contact. Picks the right Email Template (T01 through T13), pulls the wording
+  they want to contact. Picks the right Email Template (T01 through T14), pulls the wording
   from the family's Email Template Library, fills the brackets from the athlete's project
   instructions, and creates a draft in the connected email tool.
 ---
@@ -28,7 +28,7 @@ purchased product, and the family's copy is the source of truth for exact wordin
 ## Step 2: Pick the right template
 
 Ask what is happening with this school, then choose the template that matches the situation
-and stage. The thirteen templates and when each one is used:
+and stage. The fourteen templates and when each one is used:
 
 - **T01 Initial Outreach, Between Tournaments**: first contact, no Instagram follow, no live
   tournament. The school has been researched and you are reaching out between events.
@@ -63,6 +63,10 @@ and stage. The thirteen templates and when each one is used:
 - **T13 Gracious Rejection Reply**: a coach replied with a clear no (not recruiting the
   position, roster full, or further along with others). Reply graciously to keep the door open
   for the future. A relationship reply, not batch outreach.
+- **T14 School Season Updates**: the athlete's high school season is underway and a match gave
+  you something worth reporting. The coach is already in the picture. A light, athlete-driven
+  touch that reports rather than sells. No fixed cadence: send it when there is something real
+  to say. If it was a tournament, use T10 instead, at either level.
 
 If the situation is unclear, ask one question to place it, then pick. Do not guess.
 
@@ -72,6 +76,11 @@ Pull the athlete profile from the family's project Instructions: name, grad
 year, positions, club team, high school, selling points, and the signature details (athlete
 email, phone, Instagram handle). Do not use placeholders for anything that is already in the
 project instructions. Ask only for what is missing or specific to this email:
+
+The instructions carry three positions. Use the recruited position in the subject line and
+anywhere a template just says position. Use the club or high school position when the email is
+about that season's play. If only one position is stored and this email needs another, ask
+rather than assuming they are the same.
 
 - Target school, head coach name, and the coach email if drafting straight to Gmail (also
   flag the recruiting coordinator or assistant email if found, for the family to verify)
