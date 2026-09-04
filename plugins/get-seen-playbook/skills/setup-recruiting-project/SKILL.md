@@ -17,7 +17,7 @@ and warm. The family is a parent or athlete, not a technical user.
 
 **Use the most capable model for setup.** The Targeting Brief, the Dossier, and any pipeline
 audit are the most reasoning-heavy parts of the whole system and set up everything downstream.
-Run setup on the most capable model available (Opus or higher). A lighter model is fine later
+Run setup on the most capable model available — whichever is the highest-level option in the picker. A lighter model is fine later
 for routine logging.
 
 ## Step 1: Confirm the Playbook files are here
@@ -38,8 +38,15 @@ plain questions otherwise:
 - Primary position, and secondary position if any
 - Club team
 - High school
+- Time zone the family lives in
 
-Ask club team and high school as two separate questions, not combined. If the family does not
+Ask club team and high school as two separate questions, not combined.
+
+For time zone, offer the four US zones as choices (Eastern, Central, Mountain, Pacific) and
+let them type another. Record it as a standard zone name: `America/New_York`,
+`America/Chicago`, `America/Denver`, `America/Los_Angeles`. That exact form matters, because
+the tracker skill uses it to resolve dates. If they skip the question, use `America/New_York`
+and say plainly that you defaulted to Eastern and they can change it in their instructions. If the family does not
 know an answer, leave it blank and move on. Do not invent values. Do not narrate which fields
 are done (no "filled out the essentials above" style summaries); just collect what you need
 and keep moving.
@@ -85,7 +92,7 @@ Files in this project:
 - Pipeline/[Athlete]_Recruiting_Pipeline: my single working tracker. Update it in place;
   never create "v2/final" copies. When I ask for a snapshot, save a dated copy into
   Pipeline/Archive.
-- Prompt Library: the numbered prompts (P, TP, and M codes, plus the T01 through T13 master
+- Prompt Library: the numbered prompts (P, TP, and M codes, plus the T01 through T14 master
   prompts). When I name a code, or describe a task that matches one, open this file and run
   that prompt. If the match is unclear, show me the options and confirm before running. Never
   improvise a prompt.
@@ -119,10 +126,13 @@ How I want you to work:
   before including it.
 - Do not mark an email as sent in my tracker until I confirm I sent it, or until it shows up
   in my Sent folder. Drafting an email is not sending it.
-- Count dates and "sent today" in my local time zone, not UTC. Some tools (Gmail included)
-  bucket sent messages by UTC, so an email I send late in the evening can roll into the next
-  calendar day and log on the wrong date. Reconcile "today" against my local time zone so the
-  dates and daily counts are right.
+- My time zone is [Time Zone]. Every date you write for me is a local date in that zone. Your
+  own clock runs on UTC, which is ahead of mine, so from early evening on, the date you see is
+  already tomorrow for me. Before you log anything with a date on it, resolve today's date in
+  my time zone (run `TZ=[Time Zone] date "+%Y-%m-%d %H:%M %Z"`) and use that. Do not use the
+  date shown in your session context. If a send timestamp comes from my email tool, it may be
+  stored in UTC, so convert it to my local date before logging it. When you log something,
+  tell me the date you used.
 - When I ask you to review or screen schools, always check both academic fit and athletic
   fit, never one alone. Report each with a quick rating and the reason.
 - Keep every school list in alphabetical order by school name, in the tracker and anywhere
@@ -169,7 +179,7 @@ with any coaches, or sent outreach?
   first with no outreach.
 
 After that, every prompt gets sharper and the workspace is running. Any prompt runs by its
-code, including the T01 through T13 templates for outreach.
+code, including the T01 through T14 templates for outreach.
 
 ## Voice
 
