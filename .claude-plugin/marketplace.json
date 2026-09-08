@@ -9,7 +9,7 @@
       "name": "get-seen-playbook",
       "source": "./plugins/get-seen-playbook",
       "description": "Run the Get Seen Playbook. Set up a family's recruiting project, keep the pipeline tracker current, and draft coach outreach from proven templates.",
-      "version": "0.6.4"
+      "version": "0.6.5"
     }
   ]
 }
