@@ -28,6 +28,16 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.5)
+
+- The setup skill no longer promises a Targeting Brief file or an Athlete Dossier file in the
+  folder it builds. There are no such files. Both are sections of the family's project
+  instructions, written by P1-01 and P2-01 and reconciled before either is saved. The old
+  scaffold taught families to expect two files that never arrive, and it taught the early-commit
+  error the Playbook is built to prevent. Transcript stays in the scaffold.
+- This is a content-only release. It carries the fix that landed after 0.6.4 shipped, so anyone
+  already on 0.6.4 gets it.
+
 ## Notes for this version (0.6.4)
 
 - Time zone handling now has a mechanism behind it, not just a rule. Setup asks the family for
