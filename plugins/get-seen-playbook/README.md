@@ -28,6 +28,19 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.6)
+
+- New codes, same templates and prompts. The email templates are now E01 through E14 (they
+  were T01 through T14). The tournament cross-check is now P4-01 (was TP-01), and the two
+  tracker updates are P5-01 and P5-02 (were TP-02 and TP-03). TP meant two different things,
+  so every prompt now carries the number of the phase it belongs to. The skills use the new
+  codes to match the updated Playbook files. Nothing about how any of them work changed.
+- The tracker skill checks two things before it logs anything. A call or visit on the Calls
+  and Visits sheet carries a Status (Planned, Completed, Cancelled), and a past date alone does
+  not mean it happened. And an empty search of one mailbox is reported as exactly that, not as
+  proof that nothing was sent, because parents and athletes often send from different accounts.
+- One em dash removed from the setup skill.
+
 ## Notes for this version (0.6.5)
 
 - The setup skill no longer promises a Targeting Brief file or an Athlete Dossier file in the
@@ -63,7 +76,7 @@ Renamed to the Get Seen Playbook (plugin slug `get-seen-playbook`), and folded i
 - **Branch on prior coach contact** after setup: if the family already has outreach, connect Gmail and run a full pipeline audit before building a new list.
 - **Shell first for batch outreach**, and **hook edits after drafting default to paste-in**, not a new draft.
 - **Family-facing wording says project Instructions**, not CLAUDE.md (Cowork stores instructions in-app, not as a file).
-- Outreach templates now cover **T01 through T14**.
+- Outreach templates now cover **E01 through E14**.
 
 ## Notes for this version (0.6.0)
 
@@ -100,7 +113,7 @@ This version makes every numbered prompt runnable by code in a fresh workspace.
   the matching prompt whenever the family names a code (or describes a task that maps to one),
   and to confirm before running when the match is unclear. Before this, the starter file named
   the Guide, Email Templates, and Tracker but not the Prompt Library, so "run P3-03" could come
-  back empty. Now any P, TP, M, or T01 through T14 prompt runs by code.
+  back empty. Now any P, M, or E01 through E14 prompt runs by code.
 - This also makes the new **P3-05 (Research and Vet Schools, research only)** prompt reachable
   by code: it researches and sorts a list or batch into Yes / Maybe / Pass and stops, with no
   outreach drafted, so a family can vet before they commit.
@@ -111,17 +124,17 @@ This version makes every numbered prompt runnable by code in a fresh workspace.
 This version wires the last two skills to the real product, so DIY buyers get the genuine
 Playbook, not placeholder logic.
 
-- **draft-outreach now uses the real Email Templates.** It selects the correct template (T01
-  through T09) for the situation and stage, pulls that template's wording from the family's
+- **draft-outreach now uses the real Email Templates.** It selects the correct template (E01
+  through E09) for the situation and stage, pulls that template's wording from the family's
   own Email Template packet in their project folder, and fills the brackets from the athlete's
   project instructions. It locks the greeting (by time of day) and the close (before or after
   June 15 of junior year), verifies coach emails, and saves the result as a Gmail draft for
   the family to review and send. It never auto-sends.
-- **update-pipeline now follows TP-03.** A pasted coach reply is classified the Playbook way
+- **update-pipeline now follows P5-02.** A pasted coach reply is classified the Playbook way
   (genuine interest, compliance template, camp invite, or something else), the school moves to
   the real status set (Hot, Warm, Cold, Dead), and the tracker updates in place: status, last
-  contact date, and notes. Batch outreach the family sent follows TP-02 (logged as Cold).
-  Genuine warm leads are handed off to draft-outreach template T07 in a dedicated thread rather
+  contact date, and notes. Batch outreach the family sent follows P5-01 (logged as Cold).
+  Genuine warm leads are handed off to draft-outreach template E07 in a dedicated thread rather
   than answered inside the update. The "surface what is overdue" safety net is preserved.
 - The setup skill is unchanged: it builds the real folder structure, moves the family's real
   Pipeline Tracker into place, writes the starter project instructions, and points the family
