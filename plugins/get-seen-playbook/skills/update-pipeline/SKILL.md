@@ -12,8 +12,8 @@ description: >
 Take whatever the family gives you (a coach reply, a note that they sent outreach, a verbal
 update) and update the family's Pipeline Tracker in place so the pipeline is always current.
 The whole point of this skill: families miss follow-ups, and this makes the tracker update
-itself. This skill follows the Playbook's tracker-update prompts: TP-03 for a coach response,
-TP-02 for batch outreach the family sent.
+itself. This skill follows the Playbook's tracker-update prompts: P5-02 for a coach response,
+P5-01 for batch outreach the family sent.
 
 Work on the family's one working tracker (the `[Athlete]_Recruiting_Pipeline` file in their
 `Pipeline` folder). Update it in place. Never create "v2" or "final" copies. When the family
@@ -46,6 +46,43 @@ from an email tool may be stored in UTC, so an email sent late in the evening ca
 the next calendar day. Convert it to the family's local date first, so the tracker and the
 daily counts agree.
 
+## Step 0b: A plan is not a record
+
+The Calls & Visits sheet holds two things that look identical once written down: calls and
+visits that actually happened, and ones that are only scheduled. Nothing in the row shape tells
+them apart, so anything reading that sheet later will assume every row happened.
+
+Column A of that sheet is **Status**, a dropdown with three values: Planned, Completed,
+Cancelled. Every row gets one, and it is the first thing you write, not the last.
+
+Set it to Planned when you log something that has not happened yet, and leave the fields that
+can only be filled in afterwards empty: duration, what was covered, level of interest, follow-up
+date. Move it to Completed when the family confirms it happened, and fill the rest in then. Set
+it to Cancelled if it fell through, and say why in the notes. Do not delete a cancelled row. The
+prep in it stays useful for the rescheduled date, and Type still records what it was going to be.
+
+Before you treat any past-dated entry as something that occurred, read its Status. A date in the
+past is not evidence that it happened. If Status is blank or still Planned, you do not know, so
+ask the family rather than fill it in yourself. Ask the family rather than
+assume, and never build a follow-up action on top of an unconfirmed event. Chasing a family for
+a thank-you note about a visit they never took is worse than saying nothing at all.
+
+## Step 0c: A finding from one mailbox stays a finding about one mailbox
+
+The email tool the family connects usually reaches ONE account. Parents often send from their
+own address and athletes from theirs, and neither mailbox can see the other. A search that comes
+back empty tells you what is not in the mailbox you can see. It does not tell you that nothing
+was sent.
+
+So write down what you actually checked and scope the conclusion to it. "Nothing found in the
+athlete's sent mail since 9/1" is honest. "Nothing has been sent" is not, unless every account
+in play is connected.
+
+Never raise a flag, an overdue item, or a priority ranking on evidence that covers only part of
+the picture. If the gap matters, ask the direct question: did you send this from your own
+account? One question settles it. Writing a caveat next to a conclusion does not cancel the
+conclusion, and the conclusion is the part the family reads and acts on.
+
 ## Step 1: Read the input
 
 The family will paste or describe one of these:
@@ -58,7 +95,7 @@ Identify which school and coach it concerns by reading the response against the 
 tracker. If the school is not yet in the tracker, add a new row. Do not invent coach names or
 emails. If something is unknown, leave it blank.
 
-## Step 2: If it is a coach response, run the TP-03 logic
+## Step 2: If it is a coach response, run the P5-02 logic
 
 This is the heart of the skill. Review the coach's email against the current tracker and work
 out, in this order:
@@ -77,7 +114,7 @@ out, in this order:
 4. **Exactly what to update** in the tracker: status, last contact date (today), and the
    notes field (quote the useful part of the coach's message).
 
-## Step 3: If it is outreach the family sent, run the TP-02 logic
+## Step 3: If it is outreach the family sent, run the P5-01 logic
 
 For each school the family emailed, add or update the row with today's date and status
 **Cold** (contacted, no reply yet). This is the batch-outreach log.
@@ -95,8 +132,8 @@ sensible Next Action with a Next Action Date. Examples:
 ## Step 5: Warm-lead hand-off (do not draft the reply here)
 
 If the response is a genuine warm lead, do not draft a reply inside this update. Tell the
-family to run draft-outreach with template T07 in a dedicated conversation for that coach.
-Every warm-lead coach gets their own thread. T07 is a relationship conversation, not a batch
+family to run draft-outreach with template E07 in a dedicated conversation for that coach.
+Every warm-lead coach gets their own thread. E07 is a relationship conversation, not a batch
 operation.
 
 ## Step 6: Surface what is overdue (the safety net)
@@ -104,6 +141,10 @@ operation.
 After updating, scan the whole tracker and report anything where Next Action Date is today or
 in the past, grouped as "Overdue" and "Due this week." This is the safety net that keeps the
 pipeline from going quiet. Keep it short and specific.
+
+Every item you surface here has to clear Step 0b and Step 0c first. Do not list a follow-up that
+hangs off an unconfirmed call or visit, and do not list something as not sent when you could only
+see one of the family's accounts.
 
 ## Step 7: Confirm
 
