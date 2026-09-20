@@ -17,7 +17,7 @@ and warm. The family is a parent or athlete, not a technical user.
 
 **Use the most capable model for setup.** The Targeting Brief, the Dossier, and any pipeline
 audit are the most reasoning-heavy parts of the whole system and set up everything downstream.
-Run setup on the most capable model available — whichever is the highest-level option in the picker. A lighter model is fine later
+Run setup on the most capable model available, whichever is the highest-level option in the picker. A lighter model is fine later
 for routine logging.
 
 ## Step 1: Confirm the Playbook files are here
@@ -98,7 +98,7 @@ Files in this project:
 - Guide: the methodology. Follow its approach and terminology.
 - Email Templates: use these exact frameworks when drafting emails. Fill the brackets from the Athlete Dossier and target details.
 - Pipeline/[Athlete]_Recruiting_Pipeline: my single working tracker. Update it in place. Never create "v2" or "final" copies. When I ask for a snapshot, save a dated copy into Pipeline/Archive.
-- Prompt Library: the numbered prompts (P, TP, and M codes, plus the T01 through T14 master prompts). When I name a code, or describe a task that matches one, open this file and run that prompt. If the match is unclear, show me the options and confirm before running. Never improvise a prompt.
+- Prompt Library: the numbered prompts (P and M codes, plus the E01 through E14 master prompts). When I name a code, or describe a task that matches one, open this file and run that prompt. If the match is unclear, show me the options and confirm before running. Never improvise a prompt.
 How I want you to work:
 - Confirm my folder is connected before you start. If you cannot see my files, stop and tell me rather than working blind.
 - Keep a running to-do list for [Athlete Name] and update it every session: what is done, what is in progress, what is next.
@@ -155,7 +155,7 @@ with any coaches, or sent outreach?
   first with no outreach.
 
 After that, every prompt gets sharper and the workspace is running. Any prompt runs by its
-code, including the T01 through T14 templates for outreach.
+code, including the E01 through E14 templates for outreach.
 
 ## Voice
 
