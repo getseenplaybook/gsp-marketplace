@@ -36,8 +36,8 @@ TZ=America/New_York date "+%Y-%m-%d %H:%M %Z"
 ```
 
 Substitute the family's time zone for the one above. Run it once at the start of the session
-and use that date for every write that follows: last contact, next action dates, snapshot
-filenames, and any "sent today" count. If the project instructions do not name a time zone,
+and use that date for every write that follows: contact dates, response dates, follow-up dates,
+snapshot filenames, and any "sent today" count. If the project instructions do not name a time zone,
 ask the family for it once, use it for this session, and tell them to add it to their
 instructions so it holds next time.
 
@@ -53,12 +53,12 @@ visits that actually happened, and ones that are only scheduled. Nothing in the 
 them apart, so anything reading that sheet later will assume every row happened.
 
 Column A of that sheet is **Status**, a dropdown with three values: Planned, Completed,
-Cancelled. Every row gets one, and it is the first thing you write, not the last.
+Canceled. Every row gets one, and it is the first thing you write, not the last.
 
 Set it to Planned when you log something that has not happened yet, and leave the fields that
-can only be filled in afterwards empty: duration, what was covered, level of interest, follow-up
-date. Move it to Completed when the family confirms it happened, and fill the rest in then. Set
-it to Cancelled if it fell through, and say why in the notes. Do not delete a cancelled row. The
+can only be filled in afterward empty: Duration (min), Key Topics Covered, Level of Interest,
+Follow-Up Date. Move it to Completed when the family confirms it happened, and fill the rest in then. Set
+it to Canceled if it fell through, and say why in Parent Notes. Do not delete a canceled row. The
 prep in it stays useful for the rescheduled date, and Type still records what it was going to be.
 
 Before you treat any past-dated entry as something that occurred, read its Status. A date in the
@@ -89,7 +89,7 @@ The family will paste or describe one of these:
 
 - A coach's reply email (paste the text or upload a screenshot)
 - A note that they sent outreach to one or more schools
-- A status change ("Coach said they are coming to watch at the tournament")
+- A tier change ("Coach said they are coming to watch at the tournament")
 
 Identify which school and coach it concerns by reading the response against the current
 tracker. If the school is not yet in the tracker, add a new row. Do not invent coach names or
@@ -103,7 +103,7 @@ out, in this order:
 1. **Which school and coach** the email is from.
 2. **What kind of response it is**: genuine interest, a compliance template (an automated or
    form reply), a camp or ID clinic invite, or something else. Say which, and why.
-3. **What status the school should move to**, using the Playbook's four statuses, and why:
+3. **What tier the school should move to**, using the Playbook's four tiers, and why:
    - **Hot**: genuine, active interest. A coach engaging directly, wants to talk, wants film
      because they are interested, or a real back-and-forth.
    - **Warm**: real but early or conditional. Following along, will keep an eye out, will
@@ -111,35 +111,48 @@ out, in this order:
    - **Cold**: contacted, no meaningful engagement yet, or a generic compliance reply.
    - **Dead**: a clean pass. Not recruiting this position or year, or fully committed
      elsewhere. Leave the row as a record.
-4. **Exactly what to update** in the tracker: status, last contact date (today), and the
-   notes field (quote the useful part of the coach's message).
+4. **Exactly what to update** in the tracker, using its real column names: Tier, Response?
+   (YES), Response Date(s) (add today's date), and Response Summary / Notes (quote the useful
+   part of the coach's message).
 
 ## Step 3: If it is outreach the family sent, run the P5-01 logic
 
-For each school the family emailed, add or update the row with today's date and status
-**Cold** (contacted, no reply yet). This is the batch-outreach log.
+For each school the family emailed, add or update the row on the All Outreach tab: add today's
+date to All Contact Dates, fill Coach Name(s), Coach Email(s) and Tournament(s) Referenced if
+they are known, and set Tier to **Cold** (contacted, no reply yet) for a new school. This is the
+batch-outreach log.
 
-## Step 4: Update the row and set the next action
+## Step 4: Update the row and note the next step
 
-Apply the changes to the matching row: Status, Last Contact (today's date), Notes, and a
-sensible Next Action with a Next Action Date. Examples:
+Use the tracker's own column names. Do not add columns the family did not ask for.
 
-- Hot reply asking for film: Next Action "Send film link," due in 1 to 2 days
-- Warm, watching at an event: Next Action "Send tournament schedule before the next event"
-- Cold, just contacted: Next Action "Follow up," due in 7 to 10 days
-- Dead: Next Action blank, leave the row as a record
+On the **All Outreach** tab, update the matching row: Tier, Response?, Response Date(s), and
+Response Summary / Notes. Then move the row to the tab that matches its new tier (Hot, Warm,
+Cold or Dead) so the tier tabs and the Tier column agree.
 
-## Step 5: Warm-lead hand-off (do not draft the reply here)
+The tracker has no Next Action column. Write the next step as the last line of Response Summary /
+Notes, starting with "Next:" and a date, for example:
 
-If the response is a genuine warm lead, do not draft a reply inside this update. Tell the
+- Hot reply asking for film: "Next: send film link by [date 1 to 2 days out]"
+- Warm, watching at an event: "Next: send tournament schedule before [event]"
+- Cold, just contacted: "Next: follow up by [date 7 to 10 days out]"
+- Dead: no next step; leave the row as a record
+
+When a call or visit is involved, log it on the **Calls & Visits** tab instead, and put the next
+step in Action Items / Follow-Up with a Follow-Up Date.
+
+## Step 5: Coach-reply hand-off (do not draft the reply here)
+
+If a coach replied, do not draft a reply inside this update. Tell the
 family to run draft-outreach with template E07 in a dedicated conversation for that coach.
-Every warm-lead coach gets their own thread. E07 is a relationship conversation, not a batch
+Every coach who replies gets their own thread. E07 is a relationship conversation, not a batch
 operation.
 
 ## Step 6: Surface what is overdue (the safety net)
 
-After updating, scan the whole tracker and report anything where Next Action Date is today or
-in the past, grouped as "Overdue" and "Due this week." This is the safety net that keeps the
+After updating, scan the whole tracker and report anything due today or already past, grouped
+as "Overdue" and "Due this week." Look at the dates in "Next:" lines in Response Summary / Notes
+and at Follow-Up Date on the Calls & Visits tab. This is the safety net that keeps the
 pipeline from going quiet. Keep it short and specific.
 
 Every item you surface here has to clear Step 0b and Step 0c first. Do not list a follow-up that
@@ -148,7 +161,7 @@ see one of the family's accounts.
 
 ## Step 7: Confirm
 
-Tell the family in one or two lines what changed (school, new status, next action) and what is
+Tell the family in one or two lines what changed (school, new tier, next step) and what is
 now due next. If they asked for a snapshot, confirm the dated copy was saved to
 `Pipeline/Archive`.
 
