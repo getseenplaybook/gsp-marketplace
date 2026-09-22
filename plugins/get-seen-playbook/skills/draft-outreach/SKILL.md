@@ -41,7 +41,7 @@ and stage. The fourteen templates and when each one is used:
 - **E04 Referral Introduction**: a coach, recruiter, or advisor referred the athlete to this
   program. Lead with the referral and keep the pitch lighter.
 - **E05 Pre-Tournament Pipeline Re-Engagement**: a previously contacted school, an upcoming tournament, and
-  updated stats. Builds the case ("I have proven to be"). Includes the full schedule block.
+  updated stats. Builds the case. Includes the full schedule block.
 - **E06 Updated Stats and Film, Re-Engagement**: months since last contact, new tournaments
   done, no response. Reply to the original thread, never a new email. New film only.
 - **E07 Coach Responded, Now What (Warm Lead Nurture)**: a coach replied with genuine
@@ -50,9 +50,9 @@ and stage. The fourteen templates and when each one is used:
   June 15 of junior year.
 - **E08 Post-Call / Post-Visit Thank You**: a coach call or campus visit has happened. Send
   within 24 hours. Reference something specific that was said or shown.
-- **E09 Tournament Schedule Share**: a coach is already in the picture (responded, said they
-  would watch, follows on IG, or you have emailed before) and a tournament is coming up. A
-  short, friendly, athlete-driven touch with just the schedule and signature. No pitch, no
+- **E09 Tournament Schedule Share**: during a tournament, share the schedule with coaches the
+  family has already emailed, whether or not they replied. A short, friendly, athlete-driven
+  touch with just the schedule and signature. No pitch, no
   stats, no film. If the coach has never heard from you, use E02 instead.
 - **E10 Post-Tournament Recap**: a tournament just wrapped and you want to update coaches who
   watched or expressed interest. Recap how it went, note results, and point to new film if any.
