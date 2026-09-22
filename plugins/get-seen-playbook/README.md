@@ -28,6 +28,15 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.8)
+
+From the 9/22 account test: in Cowork, sessions started from the sidebar (and some started inside the project) did not see the instructions pasted into the project's Instructions field. The email skill then drafted with every athlete detail left in brackets.
+
+- **Project instructions now live in a file named CLAUDE.md** in the top level of the family's folder, so they go wherever the folder goes. The setup skill saves it there, shows the family what it says, and tells them in one sentence what the file is. It never tells a Cowork family to paste into the Instructions field.
+- **draft-outreach and update-pipeline read CLAUDE.md first** and stop if they cannot find it, instead of drafting with placeholders or guessing details from folder names.
+- **The starter block now matches P0-01 exactly**: the two role sentences and the four comma fixes are in, and the first working rule tells Claude to read CLAUDE.md.
+- This reverses the 0.6.1 note below about family-facing wording. Families still hear "your project instructions"; the file behind them is CLAUDE.md.
+
 ## Notes for this version (0.6.7)
 
 - The three skills now carry the 9/21 edits that were made after 0.6.6 but never shipped.
