@@ -28,6 +28,25 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.7)
+
+- The three skills now carry the 9/21 edits that were made after 0.6.6 but never shipped.
+  0.6.6 on the channel had the older text, so anyone installing got a setup block and a
+  tracker skill that no longer matched the Playbook files.
+- The setup skill writes the same starter block as getseenplaybook.com/starter-instructions:
+  volleyball only (no sport question), gender-neutral wording, the club team and high school
+  lines, and the new sections, including MY TRACKER AND DATES (save each change in place, and
+  a dated copy in Pipeline/Archive before the first change each day).
+- The tracker skill writes to the tracker's real columns: Tier, All Contact Dates, Response?,
+  Response Date(s) and Response Summary / Notes. The tracker has no Next Action column, so the
+  next step goes on a "Next:" line in the notes, and the overdue check reads those lines and the
+  Follow-Up Date on Calls & Visits. The tracker and setup skills say tier, not status, except
+  for the Status column on Calls & Visits, and Cancelled is spelled Canceled to match the tracker.
+- Draft outreach: E09 is for sharing the schedule during a tournament with coaches the family
+  has already emailed, whether or not they replied.
+- P0-01 has changed since (the role lines and the Stage 3 edits). The starter block gets copied
+  again from the final P0-01 once that review is settled, in the next release.
+
 ## Notes for this version (0.6.6)
 
 - New codes, same templates and prompts. The email templates are now E01 through E14 (they
