@@ -19,6 +19,13 @@ Work on the family's one working tracker (the `[Athlete]_Recruiting_Pipeline` fi
 `Pipeline` folder). Update it in place. Never create "v2" or "final" copies. When the family
 asks for a snapshot, save a dated copy into `Pipeline/Archive`.
 
+## Before anything: read CLAUDE.md
+
+Open `CLAUDE.md` in the top level of the family's folder first. It is their project
+instructions, and it holds their time zone and athlete details. If you cannot see the folder or
+cannot find CLAUDE.md, stop and tell the family to connect their folder, or to run setup if they
+have not.
+
 ## Step 0: Set today's date before you write anything
 
 Do this first, before reading the family's input. Every date in this tracker is a local date
@@ -28,8 +35,7 @@ is already tomorrow. A coach reply logged at 9pm Tuesday lands on Wednesday, and
 set for seven days out quietly comes due in six.
 
 So never take "today" from the date shown in session context, and never take it from a file
-timestamp. Resolve it against the family's time zone, which is recorded in their project
-instructions:
+timestamp. Resolve it against the family's time zone, which is recorded in CLAUDE.md:
 
 ```
 TZ=America/New_York date "+%Y-%m-%d %H:%M %Z"
@@ -37,9 +43,9 @@ TZ=America/New_York date "+%Y-%m-%d %H:%M %Z"
 
 Substitute the family's time zone for the one above. Run it once at the start of the session
 and use that date for every write that follows: contact dates, response dates, follow-up dates,
-snapshot filenames, and any "sent today" count. If the project instructions do not name a time zone,
-ask the family for it once, use it for this session, and tell them to add it to their
-instructions so it holds next time.
+snapshot filenames, and any "sent today" count. If CLAUDE.md does not name a time zone,
+ask the family for it once, use it for this session, and ask whether you should add it to
+CLAUDE.md so it holds next time.
 
 Dates that come from outside get converted before they are logged, not after. A send timestamp
 from an email tool may be stored in UTC, so an email sent late in the evening can show under
