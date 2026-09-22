@@ -18,6 +18,15 @@ This skill runs the Playbook's outreach framework. It does not invent an email s
 selects the correct template, pulls that template's wording from the family's own Email
 Template Library, and fills the brackets from the athlete's profile.
 
+## Step 0: Read CLAUDE.md first
+
+Before anything else, open `CLAUDE.md` in the top level of the family's folder. It is their
+project instructions: the athlete profile, Targeting Brief, Athlete Dossier and signature
+details. If you cannot see the folder or cannot find CLAUDE.md, stop. Tell the family to connect
+their folder, or to run setup if they have not. Do not draft an email with placeholders standing
+in for anything that belongs in CLAUDE.md, and do not work out the athlete's details from folder
+or file names.
+
 ## Step 1: Confirm the Email Templates are in the workspace
 
 The outreach templates live in the family's Email Template Library in their project folder
@@ -72,10 +81,10 @@ If the situation is unclear, ask one question to place it, then pick. Do not gue
 
 ## Step 3: Gather what the template needs
 
-Pull the athlete profile from the family's project Instructions: name, grad
+Pull the athlete profile from CLAUDE.md (read in Step 0): name, grad
 year, positions, club team, high school, selling points, and the signature details (athlete
-email, phone, Instagram handle). Do not use placeholders for anything that is already in the
-project instructions. Ask only for what is missing or specific to this email:
+email, phone, Instagram handle). Do not use placeholders for anything that is already in
+CLAUDE.md. Ask only for what is missing or specific to this email:
 
 The instructions carry three positions. Use the recruited position in the subject line and
 anywhere a template just says position. Use the club or high school position when the email is
