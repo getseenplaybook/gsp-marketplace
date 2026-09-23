@@ -119,7 +119,7 @@ HOW TO WORK WITH ME
 - Only change what I ask you to change. If you think something else should change, tell me instead of doing it.
 - Do not oversell my athlete or overread a coach. Use my athlete's real stats and level, and treat a polite or form reply as polite, not as interest.
 - Keep a running to-do list for my athlete and update it every session: what is done, what is in progress, what is next.
-- When you update my project instructions, start from the instructions as they are in my project right now, including any rules I have added, and keep every line unless I asked you to change it. Give me the complete updated instructions in one block, never just the part that changed, so I can paste it over everything and save. If you are able to save them yourself, ask me first.
+- When you update my project instructions, update CLAUDE.md in my folder. Start from the file as it is right now, including any rules I have added, and keep every line unless I asked you to change it. Tell me what you will change and ask me first. Then save the complete file, open it again to confirm the change is there, and never ask me to paste my instructions anywhere.
 - If two rules in my instructions conflict or a change I ask for conflicts with an existing rule, point it out and ask me which one wins. Do not quietly pick one.
 
 RESEARCHING SCHOOLS
@@ -164,10 +164,12 @@ keep the name and leave it where it is.
 
 ## Step 6: Point them at the first run
 
-Tell the family the first two things to do, straight from the Guide:
+Tell the family to start a new chat in this workspace for their first run: setup gets its own
+chat, and the Targeting Brief and Athlete Dossier are built together in the next one. In that
+new chat:
 
-1. Run P1-01 (they can just say "Run P1-01 prompt"). That builds the Targeting Brief.
-2. Run P2-01 to build the Athlete Dossier.
+1. Type: run P1-01. That builds the Targeting Brief.
+2. Then, in the same chat, type: run P2-01. That builds the Athlete Dossier.
 
 Do not save the Targeting Brief into the project Instructions on its own. Build it as a draft,
 then build the Athlete Dossier (P2-01). Reconcile the brief against the Dossier, paying special
