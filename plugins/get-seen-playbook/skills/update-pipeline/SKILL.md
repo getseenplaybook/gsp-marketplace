@@ -16,15 +16,17 @@ itself. This skill follows the Playbook's tracker-update prompts: P5-02 for a co
 P5-01 for batch outreach the family sent.
 
 Work on the family's one working tracker (the `[Athlete]_Recruiting_Pipeline` file in their
-`Pipeline` folder). Update it in place. Never create "v2" or "final" copies. When the family
-asks for a snapshot, save a dated copy into `Pipeline/Archive`.
+`Pipeline` folder). Update it in place. Never create "v2" or "final" copies. Before your first
+change on any day, save a dated copy into `Pipeline/Archive` (one a day is enough), and save one
+whenever the family asks for a snapshot.
 
 ## Before anything: read CLAUDE.md
 
 Open `CLAUDE.md` in the top level of the family's folder first. It is their project
 instructions, and it holds their time zone and athlete details. If you cannot see the folder or
 cannot find CLAUDE.md, stop and tell the family to connect their folder, or to run setup if they
-have not.
+have not. Once you have read it, confirm in one line the athlete's name and the time zone you are
+using from it.
 
 ## Step 0: Set today's date before you write anything
 
@@ -112,9 +114,10 @@ out, in this order:
 3. **What tier the school should move to**, using the Playbook's four tiers, and why:
    - **Hot**: genuine, active interest. A coach engaging directly, wants to talk, wants film
      because they are interested, or a real back-and-forth.
-   - **Warm**: real but early or conditional. Following along, will keep an eye out, will
-     evaluate at an event, or interested but not yet active.
-   - **Cold**: contacted, no meaningful engagement yet, or a generic compliance reply.
+   - **Warm**: any other reply from a coach, including an automated or compliance reply, a
+     camp invite, "we'll keep an eye out" or "we'll watch at the event." This is the tracker's
+     default for any acknowledgment; the family can choose otherwise.
+   - **Cold**: contacted, no response yet.
    - **Dead**: a clean pass. Not recruiting this position or year, or fully committed
      elsewhere. Leave the row as a record.
 4. **Exactly what to update** in the tracker, using its real column names: Tier, Response?
@@ -136,13 +139,17 @@ On the **All Outreach** tab, update the matching row: Tier, Response?, Response 
 Response Summary / Notes. Then move the row to the tab that matches its new tier (Hot, Warm,
 Cold or Dead) so the tier tabs and the Tier column agree.
 
-The tracker has no Next Action column. Write the next step as the last line of Response Summary /
-Notes, starting with "Next:" and a date, for example:
+The tracker has no Next Action column. When there is a real next step tied to a real date,
+write it as the last line of Response Summary / Notes, starting with "Next:" and the date, for
+example:
 
 - Hot reply asking for film: "Next: send film link by [date 1 to 2 days out]"
 - Warm, watching at an event: "Next: send tournament schedule before [event]"
-- Cold, just contacted: "Next: follow up by [date 7 to 10 days out]"
 - Dead: no next step; leave the row as a record
+
+Do not set a follow-up date for a school that simply has not replied. When to follow up depends
+on the school and the athlete, so that is the family's call. If the family tells you a date,
+log it the same way.
 
 When a call or visit is involved, log it on the **Calls & Visits** tab instead, and put the next
 step in Action Items / Follow-Up with a Follow-Up Date.
@@ -158,8 +165,12 @@ operation.
 
 After updating, scan the whole tracker and report anything due today or already past, grouped
 as "Overdue" and "Due this week." Look at the dates in "Next:" lines in Response Summary / Notes
-and at Follow-Up Date on the Calls & Visits tab. This is the safety net that keeps the
-pipeline from going quiet. Keep it short and specific.
+and at Follow-Up Date on the Calls & Visits tab.
+
+Then list the schools that have gone longest without contact, oldest first, with how long it
+has been since the last date in All Contact Dates or Response Date(s), and ask the family which,
+if any, they want to reach out to. Do not decide for them when a school is due. This is the
+safety net that keeps the pipeline from going quiet. Keep it short and specific.
 
 Every item you surface here has to clear Step 0b and Step 0c first. Do not list a follow-up that
 hangs off an unconfirmed call or visit, and do not list something as not sent when you could only
