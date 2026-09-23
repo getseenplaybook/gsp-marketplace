@@ -8,17 +8,19 @@ complements recruiters. It does not replace them.
 
 | Skill | What the family says | What happens |
 | --- | --- | --- |
-| Set up my recruiting project | "Get me started" | Collects the athlete profile, builds the pipeline tracker, writes the project file |
-| Update my pipeline | "Here is a coach reply" / "I sent this" | Updates the tracker, schedules the follow-up, flags what is overdue |
+| Set up my recruiting workspace | "Set up my recruiting workspace" | Collects the athlete details, builds the Pipeline folder, places the tracker, saves the project instructions as CLAUDE.md |
+| Update my pipeline | "Here is a coach reply" / "I sent this" | Updates the tracker, notes any dated next step, flags what is overdue and what has gone quiet |
 | Draft outreach | "Draft an email to [school]" | Writes the coach email and saves it as a Gmail draft to review and send |
 
 ## First-time setup for a family (about 15 minutes)
 
 1. Install the Claude desktop app and sign into a Claude plan.
 2. Accept this plugin when it appears in the chat.
-3. Point Cowork at a folder for the athlete (an empty folder is fine).
-4. Run "Set up my recruiting project" and answer the questions.
-5. Connect Gmail the first time you draft outreach (optional but recommended).
+3. Point Cowork at a folder for the athlete and put the four Playbook files in it (the Guide,
+   Email Template Library, Prompt Library and Pipeline Tracker).
+4. Type "set up my recruiting workspace" and answer the questions.
+5. Connect Gmail before the first draft. The email skill stops and asks for it if it is not
+   connected.
 
 After that, the two skills the family uses most are "Update my pipeline" and "Draft
 outreach." The tracker stays current on its own instead of getting forgotten.
@@ -27,6 +29,20 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
+
+## Notes for this version (0.6.9)
+
+From the 9/22 account test and the Stage 2 plugin check:
+
+- **Updates on Cowork save to CLAUDE.md.** The starter block's update rule now says to update CLAUDE.md in the folder, ask first, save the whole file and check it. The family is never asked to paste their instructions. It matches P0-01, which gives the paste wording back on the Project-Based path.
+- **Proof it read the profile.** draft-outreach confirms the athlete's name, grad year and recruited position in one line after reading CLAUDE.md; update-pipeline confirms the name and time zone.
+- **No made-up follow-up dates.** A school that has not replied gets no automatic "follow up by" date. The tracker review now lists the schools that have gone longest without contact, oldest first, and asks the family what to do. Dated next steps (film requested, an event, a date the family chose) are still logged and flagged when due.
+- **Tiers match the tracker.** Any coach reply, compliance and form replies included, is Warm by default; Cold is contacted with no response yet.
+- **Daily snapshot.** The tracker skill saves a dated copy into Pipeline/Archive before its first change each day, as the starter block says, and whenever the family asks.
+- **No email as text.** With no email connected, draft-outreach stops and asks for Gmail, as the prompts do. It also shows a short bullet preview before writing the full email.
+- **Names and rules match the Playbook files.** E01, E02, E03, E06 and E07 carry the Library's names; the June 15 rule is "before junior year" and applies to D1 only (D2, D3, NAIA and JUCO use the call close); "Instagram," "tier" and "Email Template Library" throughout; camp wording is gender-neutral.
+- **First run gets a new chat.** Setup is its own chat; the setup skill now tells the family to start a new chat for P1-01, then run P2-01 in that same chat.
+- README: first-time setup steps match the Setup Guide.
 
 ## Notes for this version (0.6.8)
 
@@ -64,7 +80,7 @@ From the 9/22 account test: in Cowork, sessions started from the sidebar (and so
   so every prompt now carries the number of the phase it belongs to. The skills use the new
   codes to match the updated Playbook files. Nothing about how any of them work changed.
 - The tracker skill checks two things before it logs anything. A call or visit on the Calls
-  and Visits sheet carries a Status (Planned, Completed, Cancelled), and a past date alone does
+  and Visits sheet carries a Status (Planned, Completed, Canceled), and a past date alone does
   not mean it happened. And an empty search of one mailbox is reported as exactly that, not as
   proof that nothing was sent, because parents and athletes often send from different accounts.
 - One em dash removed from the setup skill.
@@ -142,7 +158,7 @@ This version makes every numbered prompt runnable by code in a fresh workspace.
   and to confirm before running when the match is unclear. Before this, the starter file named
   the Guide, Email Templates, and Tracker but not the Prompt Library, so "run P3-03" could come
   back empty. Now any P, M, or E01 through E14 prompt runs by code.
-- This also makes the new **P3-05 (Research and Vet Schools, research only)** prompt reachable
+- This also makes the new **P3-05 (Research and Vet Schools)** prompt reachable
   by code: it researches and sorts a list or batch into Yes / Maybe / Pass and stops, with no
   outreach drafted, so a family can vet before they commit.
 - Skills logic is otherwise unchanged from 0.4.0.
@@ -162,7 +178,7 @@ Playbook, not placeholder logic.
   (genuine interest, compliance template, camp invite, or something else), the school moves to
   the real status set (Hot, Warm, Cold, Dead), and the tracker updates in place: status, last
   contact date, and notes. Batch outreach the family sent follows P5-01 (logged as Cold).
-  Genuine warm leads are handed off to draft-outreach template E07 in a dedicated thread rather
+  Coach replies are handed off to draft-outreach template E07 in a dedicated thread rather
   than answered inside the update. The "surface what is overdue" safety net is preserved.
 - The setup skill is unchanged: it builds the real folder structure, moves the family's real
   Pipeline Tracker into place, writes the starter project instructions, and points the family
