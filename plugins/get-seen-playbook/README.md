@@ -30,6 +30,10 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.10)
+
+- The one-line profile confirmation added in 0.6.9 is removed from draft-outreach and update-pipeline (Alva's call, 9/23). Both skills still read CLAUDE.md first and stop if they cannot find it. The Prompt Library made the same change.
+
 ## Notes for this version (0.6.9)
 
 From the 9/22 account test and the Stage 2 plugin check:
