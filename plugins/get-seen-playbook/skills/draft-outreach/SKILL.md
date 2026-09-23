@@ -25,8 +25,7 @@ project instructions: the athlete profile, Targeting Brief, Athlete Dossier and 
 details. If you cannot see the folder or cannot find CLAUDE.md, stop. Tell the family to connect
 their folder, or to run setup if they have not. Do not draft an email with placeholders standing
 in for anything that belongs in CLAUDE.md, and do not work out the athlete's details from folder
-or file names. Once you have read it, confirm in one line the athlete's name, grad year and
-recruited position you are using from it, so the family can see you have the right profile.
+or file names.
 
 ## Step 1: Confirm the Email Template Library is in the workspace
 
