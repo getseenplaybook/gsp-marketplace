@@ -25,8 +25,7 @@ whenever the family asks for a snapshot.
 Open `CLAUDE.md` in the top level of the family's folder first. It is their project
 instructions, and it holds their time zone and athlete details. If you cannot see the folder or
 cannot find CLAUDE.md, stop and tell the family to connect their folder, or to run setup if they
-have not. Once you have read it, confirm in one line the athlete's name and the time zone you are
-using from it.
+have not.
 
 ## Step 0: Set today's date before you write anything
 
