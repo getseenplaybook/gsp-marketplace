@@ -188,7 +188,7 @@ with any coaches, or sent outreach?
 - If yes: connect Gmail and run a full audit of the existing recruiting email (sent and
   received) to reconstruct the pipeline tracker: every school contacted, last contact date,
   tier (Hot, Warm, Cold, Dead), and notes. The audit is heavy, so run it in its own
-  conversation (in Cowork, Start new task) with a clean handoff, then come back. After the
+  chat with a clean handoff, then come back. After the
   tracker reflects reality, use P3-01 or P3-05 to fill the gaps.
 - If no: go straight to building the school list with P3-01, or P3-05 to research and vet
   first with no outreach.
