@@ -156,7 +156,7 @@ step in Action Items / Follow-Up with a Follow-Up Date.
 ## Step 5: Coach-reply hand-off (do not draft the reply here)
 
 If a coach replied, do not draft a reply inside this update. Tell the
-family to run draft-outreach with template E07 in a dedicated conversation for that coach.
+family to run draft-outreach with template E07 in a dedicated chat for that coach.
 Every coach who replies gets their own thread. E07 is a relationship conversation, not a batch
 operation.
 
