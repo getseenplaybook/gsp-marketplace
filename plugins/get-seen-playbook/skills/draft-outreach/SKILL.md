@@ -54,7 +54,7 @@ and stage. The fourteen templates and when each one is used:
 - **E06 Updated Stats + Film Re-Engagement**: months since last contact and new tournaments
   done, at any tier, whether or not the coach replied. Reply to the original thread, never a new email. New film only.
 - **E07 Coach Responded — Now What?**: any coach reply, classified first. This one is a
-  relationship reply, not batch outreach. Give it its own dedicated conversation for that
+  relationship reply, not batch outreach. Give it its own dedicated chat for that
   coach. For a D1 program the close changes depending on whether it is before or after June 15
   before junior year.
 - **E08 Post-Call / Post-Visit Thank You**: a coach call or campus visit has happened. Send
