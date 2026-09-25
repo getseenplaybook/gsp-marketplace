@@ -39,12 +39,12 @@ purchased product, and the family's copy is the source of truth for exact wordin
 Ask what is happening with this school, then choose the template that matches the situation
 and stage. The fourteen templates and when each one is used:
 
-- **E01 Initial Outreach Between Tournaments**: first contact, no Instagram follow, no live
+- **E01 Initial Outreach Between Tournaments**: first contact, no social media follow, no live
   tournament. The school has been researched and you are reaching out between events.
 - **E02 Initial Outreach — School Attending Your Tournament**: first contact when the school is
   verified (via University Athlete) to be attending an upcoming tournament. Includes the
   tournament schedule block (jersey number, court, match times). Send 3 to 5 days out.
-- **E03 Instagram Follow — Initial Outreach**: a coach followed on Instagram, or the athlete followed
+- **E03 Social Media Follow — Initial Outreach**: a coach followed on social media, or the athlete followed
   and the coach followed back. Send within 48 hours. Opener changes to thank them for the
   follow or the follow-back, then it follows E01.
 - **E04 Referral Introduction**: a coach, recruiter, or advisor referred the athlete to this
@@ -83,8 +83,9 @@ If the situation is unclear, ask one question to place it, then pick. Do not gue
 
 Pull the athlete profile from CLAUDE.md (read in Step 0): name, grad
 year, positions, club team, high school, selling points, and the signature details (athlete
-email, phone, Instagram handle). Do not use placeholders for anything that is already in
-CLAUDE.md. Ask only for what is missing or specific to this email:
+email, phone, and each social media handle with its platform). Do not use placeholders for
+anything that is already in CLAUDE.md. For stats, open the stats file the Dossier's Stats line
+names and confirm with the family that the numbers are current before you use them. Ask only for what is missing or specific to this email:
 
 The instructions carry three positions. Use the recruited position in the subject line and
 anywhere a template just says position. Use the club or high school position when the email is
@@ -118,9 +119,14 @@ Use the chosen template's wording from the family's Email Template Library as th
 from the project instructions and the details gathered in Step 3. Keep it short, specific,
 and athlete-driven: a coach should know in fifteen seconds who the athlete is, why this
 school, and what to do next. Remove any structural labels the template carries (the gray italic
-notes such as OPENER and CLOSE are instructions for the writer, not email content). Before you
-write the full email, show the family a short bullet preview of what it will say and get their
-okay.
+notes such as OPENER and CLOSE are instructions for the writer, not email content). Section
+headings in the email are bold: the stats label, Film:, Team:, Jersey:, Position: and the Day
+schedule line.
+
+Show the family the complete email on screen, word for word, with the subject line and the
+recipients, before you create anything in Gmail. Never a summary or a bullet preview. Ask them
+to read it carefully and tell you what to change. Make the changes and show the whole email
+again. Create the Gmail draft only after the family approves that exact email.
 
 Voice rules: real and direct, never corporate or over-polished. Inclusive of parent and
 athlete. Leverage the athlete's real work, not aspirational fluff. Follow the voice rules in
@@ -131,7 +137,7 @@ recruiter.
 
 Before saving, confirm the email connector (`~~email`, typically Gmail) is connected. Create
 the draft with the coach email as the recipient if provided, the subject from the template,
-and the body you wrote. Confirm to the family that the draft is in their inbox, ready to
+and the body the family approved, with the section headings still bold. Confirm to the family that the draft is in their inbox, ready to
 review and send. Never auto-send.
 
 If the family later wants to change a hook or any wording after the draft exists, do not
