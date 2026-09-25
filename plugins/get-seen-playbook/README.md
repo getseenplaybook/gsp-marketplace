@@ -30,6 +30,16 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.12)
+
+From the 9/24 retest:
+
+- **Draft outreach shows the whole email first.** The family sees the complete email, word for word, and the Gmail draft is created only after they approve that exact email. The short bullet preview is gone. Section headings (the stats label, Film:, Team:, Jersey:, Position: and the Day schedule line) stay bold in the draft.
+- **Stats come from the stats file.** Draft outreach reads current stats from the file the Athlete Dossier names and confirms they are current before using them.
+- **Social media, not Instagram.** Signatures carry each social media handle with its platform. E03 is now Social Media Follow.
+- **Setup asks women's or men's volleyball** and writes it into the first line of CLAUDE.md. The high school is asked before its position, with "does not play high school volleyball" as a choice. Time zone offers the four US zones, and the family can type another or say they are not sure.
+- **The starter block matches P0-01 word for word**, including the new rule that Lock Your Voice (P2-05) is offered only after at least two batches of emails, never right after P1-01 or P2-01.
+
 ## Notes for this version (0.6.11)
 
 - Wording: "chat" instead of "conversation" wherever it means a chat with Claude, matching the Playbook files (Alva's call, 9/23). "Conversation" stays where it means talking with a coach.
