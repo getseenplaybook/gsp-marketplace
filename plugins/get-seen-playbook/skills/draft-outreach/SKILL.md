@@ -123,10 +123,16 @@ notes such as OPENER and CLOSE are instructions for the writer, not email conten
 headings in the email are bold: the stats label, Film:, Team:, Jersey:, Position: and the Day
 schedule line.
 
+When the template and the Targeting Brief disagree (for example, the template leads with height and
+the Brief says not to raise it), follow the Brief. Tell the family in one line what you changed from the
+template and why.
+
 Show the family the complete email on screen, word for word, with the subject line and the
 recipients, before you create anything in Gmail. Never a summary or a bullet preview. Ask them
 to read it carefully and tell you what to change. Make the changes and show the whole email
-again. Create the Gmail draft only after the family approves that exact email.
+again, even when the change came with an approval ("approve, but drop this line"). An approval
+with a change is not approval of the new email. Create the Gmail draft only after the family
+approves that exact email.
 
 Voice rules: real and direct, never corporate or over-polished. Inclusive of parent and
 athlete. Leverage the athlete's real work, not aspirational fluff. Follow the voice rules in
