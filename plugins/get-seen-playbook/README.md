@@ -34,6 +34,7 @@ account. The family connects their own email. Nothing is shared back to anyone.
 
 - **The Targeting Brief wins over a template.** When an email template and the Brief disagree (for example, the template leads with height and the Brief says not to raise it), Claude follows the Brief and says in one line what it changed from the template and why. The same rule is in the starter block setup writes into CLAUDE.md.
 - **Claude asks before drafting after a change.** If the family asks for a change, even while approving, Claude makes it and asks whether they want to see the whole email again before it creates the Gmail draft.
+- **Clearer writing rules in the starter block.** The voice section now opens with the goal: clear, natural, grounded writing that sounds like a real athlete and family, not a sales pitch and not a polished AI draft. New rules: mix short and fuller sentences, say each thing once, let a stat make the point instead of an adjective, watch for writing that is too polished, and keep a school hook specific and true instead of generic praise. "It isn't X, it's Y" joins the banned phrases.
 
 ## Notes for 0.6.12
 
