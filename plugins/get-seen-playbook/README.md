@@ -30,7 +30,12 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
-## Notes for this version (0.6.12)
+## Notes for this version (0.6.13)
+
+- **The Targeting Brief wins over a template.** When an email template and the Brief disagree (for example, the template leads with height and the Brief says not to raise it), Claude follows the Brief and says in one line what it changed from the template and why. The same rule is in the starter block setup writes into CLAUDE.md.
+- **Any change means the whole email again.** If the family asks for a change, even while approving, Claude shows the whole updated email and creates the Gmail draft only after they approve that exact version.
+
+## Notes for 0.6.12
 
 From the 9/24 retest:
 
