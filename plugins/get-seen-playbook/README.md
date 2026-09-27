@@ -12,10 +12,11 @@ complements recruiters. It does not replace them.
 | Update my pipeline | "Here is a coach reply" / "I sent this" | Updates the tracker, notes any dated next step, flags what is overdue and what has gone quiet |
 | Draft outreach | "Draft an email to [school]" | Writes the coach email and saves it as a Gmail draft to review and send |
 
-## First-time setup for a family (about 15 minutes)
+## First-time setup for a family (about 20 minutes)
 
 1. Install the Claude desktop app and sign into a Claude plan.
-2. Accept this plugin when it appears in the chat.
+2. Add this plugin: in the app's plugins area, add a marketplace from a repository, paste
+   getseenplaybook/gsp-marketplace, then add Get Seen Playbook. The Setup Guide shows each step.
 3. Point Cowork at a folder for the athlete and put the four Playbook files in it (the Guide,
    Email Template Library, Prompt Library and Pipeline Tracker).
 4. Type "set up my recruiting workspace" and answer the questions.
@@ -34,6 +35,7 @@ account. The family connects their own email. Nothing is shared back to anyone.
 
 - **The Targeting Brief wins over a template.** When an email template and the Brief disagree (for example, the template leads with height and the Brief says not to raise it), Claude follows the Brief and says in one line what it changed from the template and why. The same rule is in the starter block setup writes into CLAUDE.md.
 - **Claude asks before drafting after a change.** If the family asks for a change, even while approving, Claude makes it and asks whether they want to see the whole email again before it creates the Gmail draft.
+- **README setup steps match the Setup Guide:** add the plugin from the marketplace, about 20 minutes.
 - **Clearer writing rules in the starter block.** The voice section now opens with the goal: clear, natural, grounded writing that sounds like a real athlete and family, not a sales pitch and not a polished AI draft. New rules: mix short and longer sentences, say each thing once, let a stat make the point instead of an adjective, watch for writing that is too polished, and keep a school hook specific and true instead of generic praise. "It isn't X, it's Y" joins the banned phrases.
 
 ## Notes for 0.6.12
