@@ -31,6 +31,17 @@ outreach." The tracker stays current on its own instead of getting forgotten.
 The athlete's information and the family's inbox stay on the family's own machine and
 account. The family connects their own email. Nothing is shared back to anyone.
 
+## Notes for this version (0.6.14)
+
+Fixes from a live Windows setup on 9/30/26.
+
+- **Club and team asked together.** Setup asks for the club and the team in one question, with an example ("Ignite 14 Gold"), because templates and subject lines use the full team name. If the answer is a club with no team, Claude asks once for the team.
+- **Name asked plainly.** The athlete's name is a plain question now, not a choice card with "I'll type it."
+- **Positions in the family's words.** The recruited position question names the common positions, including pin hitter, and always leaves room for something else.
+- **No chores when a folder can't be made.** Some sessions cannot create an empty folder or delete files. Setup now makes the Archive folder with a one-line README inside it, and if it cannot move the tracker it copies it and names the exact original file to delete, so there is only ever one tracker.
+- **Blanks get named at the end.** The final check reads back every field, names anything left blank or half answered, and offers to add it on the spot.
+- **Model and effort before the first run.** Before P1-01, setup tells the family to pick the most capable model and set effort to high or above.
+
 ## Notes for this version (0.6.13)
 
 - **The Targeting Brief wins over a template.** When an email template and the Brief disagree (for example, the template leads with height and the Brief says not to raise it), Claude follows the Brief and says in one line what it changed from the template and why. The same rule is in the starter block setup writes into CLAUDE.md.
