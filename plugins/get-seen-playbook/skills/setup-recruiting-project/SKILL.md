@@ -32,22 +32,28 @@ product.
 Ask for these one topic at a time, using AskUserQuestion where there are clear choices and
 plain questions otherwise:
 
-- Athlete first and last name, the way they want it used in emails
+- Athlete first and last name, the way they want it used in emails (ask this as a plain question, not a choice card; there is nothing to choose from)
 - Graduation year (accept any year; never cap the choices, always include 2030 and beyond, or just have them type it)
 - Women's or men's volleyball (offer the two as choices)
 - Recruited position (the position you are pitching to college coaches)
 - Club position (what the athlete plays for their club team)
-- Club team
+- Club and team: the club name and the team the athlete plays on, for example "Ignite 14 Gold"
 - High school
 - High school position (what the athlete plays for school)
 - Time zone the family lives in
 
-Ask club team and high school as two separate questions, not combined. If the family does not
-know an answer, leave it blank and move on. Do not invent values. Do not narrate which fields
+Ask the club and team, and the high school, as two separate questions, not combined. When you ask for the
+club, ask for the team in the same question and give the example, because templates and subject
+lines use the full team name. If the answer looks like a club with no team (no age group or team
+name), ask once for the team. If the family does not know an answer, leave it blank and move on. Do not invent values. Do not narrate which fields
 are done (no "filled out the essentials above" style summaries); just collect what you need
 and keep moving.
 
-Ask the recruited position first. Then offer "same as the recruited position" as the first
+Ask the recruited position first, as a plain question that names the common positions so the
+family can answer in their own words: outside hitter, opposite (right side), pin hitter (plays
+outside and opposite), middle blocker, setter, libero or defensive specialist. Always leave room for
+something else: if the family's answer is not on that list, take it as given. Record the
+position in the family's words. Then offer "same as the recruited position" as the first
 choice for club and for high school, so a family whose athlete plays one position everywhere
 answers in two taps. Ask the high school before its position, and for the high school position
 offer "does not play high school volleyball" as the second choice. If they choose it, write
@@ -84,6 +90,13 @@ athlete's actual name. Keep its file extension. Do not create a Transcript file 
 family adds that themselves. There is no Targeting Brief file and no Athlete Dossier file:
 P1-01 and P2-01 build those as two sections of CLAUDE.md, never as separate files in
 the folder.
+
+Some sessions cannot create an empty folder or delete files. Plan for that instead of handing
+the family chores. Create `Archive` by saving a small file inside it, `Pipeline/Archive/README.txt`,
+containing one line: "Dated copies of the tracker are saved here." If you cannot move the
+tracker, copy it into `Pipeline` under the new name instead, then tell the family in one plain
+sentence to delete the original Pipeline Tracker file from the top of the folder, naming the
+exact file, so only one tracker exists. Never leave two trackers without saying so.
 
 ## Step 4: Write the starter project instructions
 
@@ -170,7 +183,11 @@ Athlete Dossier: [This will be completed after running P2-01. It holds the full 
 ## Step 5: Show the result and confirm
 
 Show the family the finished folder structure and read the athlete details back for a quick
-check. Confirm the tracker is now in `Pipeline` and CLAUDE.md is saved in the top level of the folder.
+check. Read back every field from Step 2, including any left blank or only partly answered, and
+name those plainly (for example "Club and team: Ignite, team not given yet") with one
+question asking whether they want to add it now. If they answer, update CLAUDE.md, then open it
+again to confirm. If any step needs the family to do something by hand, say exactly what and
+where in one short list. Confirm the tracker is now in `Pipeline` and CLAUDE.md is saved in the top level of the folder.
 Tell the family in one plain sentence what CLAUDE.md is: their project instructions. The name
 looks technical because it is the standard name for a Claude instructions file, so they should
 keep the name and leave it where it is.
@@ -180,6 +197,10 @@ keep the name and leave it where it is.
 Tell the family to start a new chat in this workspace for their first run: setup gets its own
 chat, and the Targeting Brief and Athlete Dossier are built together in the next one. In that
 new chat:
+
+Before they type anything, tell them to set the model picker to the most capable model and the
+effort to high or above. The Targeting Brief and Athlete Dossier are the most reasoning-heavy
+steps in the system, and families skip this line in the guide.
 
 1. Type: run P1-01. That builds the Targeting Brief.
 2. Then, in the same chat, type: run P2-01. That builds the Athlete Dossier.
